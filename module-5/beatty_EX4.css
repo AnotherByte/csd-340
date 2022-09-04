@@ -1,0 +1,54 @@
+#image-gallery
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+#center-title
+{
+    text-align: center;
+}
+img
+{
+    width: 400px;
+    height: 350px;
+}
+.grid-title
+{
+    text-align: center;
+}
+figure
+{
+    text-align: center;
+}
+h1, h3, figcaption
+{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(185, 63, 8);
+}
+figcaption
+{
+    font-style: italic;
+    font-size: .75em;
+}
+html
+{
+    background-color: rgba(247, 112, 24, .2);
+}
+.grid-element
+{
+    border: 1px solid rgb(185, 63, 8);
+    border-radius: 15px;
+    padding: 5px;
+}
+#lower
+{
+    width: 100%;
+    margin-top: 10%;
+}
+#back
+{
+    float: right;
+    margin-bottom: 20px;
+}
