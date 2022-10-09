@@ -1,0 +1,140 @@
+body
+{
+    margin: 0;
+    font-family: 'Oswald', 'Verdana', 'Arial', sans-serif;
+    background-color: #90E0EF;
+}
+header
+{
+    background-color: #0077B6;
+    color: #CAF0F8;
+    padding: 10px;
+    text-align: center;
+}
+h1
+{
+    font-size: 3em;
+    font-weight: 700;
+}
+h2
+{
+    color: #023E8A;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+#navbar
+{
+    overflow: hidden;
+    background-color: #023E8A;
+    border-bottom: solid 15px #0077B6;
+}
+#navbar a
+{
+    float: left;
+    display: block;
+    color: #CAF0F8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar a:hover
+{
+    background-color: #0077B6;
+    color: #03045E;
+}
+#about
+{
+    text-align: center;
+}
+#hobbies, #experience, #contact
+{
+    margin: 2%;
+    margin-right: 0;
+    padding: 10px;
+}
+#contact
+{
+    padding-bottom: 100px;
+}
+.column
+{
+    float: left;
+    width: 33.3%;
+}
+#hobbies:after, #experience:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    width: 90%;
+    background-color: white;
+}
+.card-title
+{
+    text-align: center;
+    font-size: 1.8em;
+    color: #023E8A;
+    font-weight: 400;
+}
+.card-content
+{
+    padding: 2px 16px;
+}
+#contact-card
+{
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 250px;
+}
+figure
+{
+    text-align: center;
+}
+img.portrait
+{
+    max-height: 700px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+img.main
+{
+    width: 100%;
+    height: auto;
+    max-width: 25vw;
+}
+footer
+{
+    background-color: #023E8A;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+footer p
+{
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+.left
+{
+    float: left;
+    padding-left: 20px;
+}
+.right
+{
+    float: right;
+    padding-right: 20px;
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover
+{
+    text-decoration: underline;
+}
